@@ -1,0 +1,67 @@
+/* You can add global styles to this file, and also import other style files */
+
+.titulo{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+.titulo-box{
+  margin-top: 2px;
+  margin-bottom: 10px;
+  border-width: 1px;
+  border-style: inset;
+  border-color:  #016838;
+  padding: 2px;
+}
+
+body{
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #403030
+}
+
+@media(min-width: 1200px){
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+}
+
+
+.logo{
+  float: left;
+  width: 140px;
+  height: 60px;
+  margin-left: 20px;
+  padding: 0;
+  border: none;
+}
+
+label{
+  font-weight: bold;
+}
+
+legend{
+  font-weight: bold;
+}
+
+fieldset{
+  padding-top: 10px;
+}
+
+input{
+  padding: 10px;
+}
+
+.col-150px{
+  width: 150px;
+}
+
+.col-100px{
+  width: 100px;
+}
+
+
+
